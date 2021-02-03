@@ -68,6 +68,6 @@ public class CatTest {
     @Test
     public void domesticCatRandomComment() {
         Cat domesticCat = new DomesticCat();
-        assertEquals("It will do I suppose", domesticCat.eat("It will do I suppose"));
+        assertEquals("Purrrrrrr It will do I suppose", domesticCat.eat("It will do I suppose"));
     }
 }
