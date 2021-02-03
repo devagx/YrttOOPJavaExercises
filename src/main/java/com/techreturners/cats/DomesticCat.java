@@ -4,5 +4,6 @@ public class DomesticCat extends AbstractCat {
 
     public DomesticCat() {
         super();
+        this.setSetting("domestic");
     }
 }

@@ -27,13 +27,13 @@ public class CatTest {
         domesticCat.wakeUp();
         assertFalse("Cat should be awake now", domesticCat.isAsleep());
     }
-/*
+
     @Test
     public void checkCatSetting() {
         Cat domesticCat = new DomesticCat();
         assertEquals("domestic", domesticCat.getSetting());
     }
-
+/*
     @Test
     public void checkCatHeight() {
         Cat domesticCat = new DomesticCat();
