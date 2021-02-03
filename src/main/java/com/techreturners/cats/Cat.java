@@ -1,5 +1,5 @@
 package com.techreturners.cats;
 
-interface Cat {
-
+public interface Cat {
+    public boolean isAsleep();
 }
