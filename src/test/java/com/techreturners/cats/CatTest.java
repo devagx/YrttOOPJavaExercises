@@ -13,13 +13,13 @@ public class CatTest {
 
     }
 
-/*    @Test
+   @Test
     public void checkCatCanGoToSleep() {
         Cat domesticCat = new DomesticCat();
         domesticCat.goToSleep();
         assertTrue("Cat should be snoozing", domesticCat.isAsleep());
     }
-
+/*
     @Test
     public void checkCatCanWakep() {
         Cat domesticCat = new DomesticCat();
