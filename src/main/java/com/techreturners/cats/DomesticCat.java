@@ -6,6 +6,10 @@ public class DomesticCat extends AbstractCat {
         super();
         this.setSetting("domestic");
         this.setAverageHeight(23);
-        this.setPostEatAction("Purrrrrrr");
+    }
+
+    @Override
+    public String eat() {
+        return "Purrrrrrr";
     }
 }

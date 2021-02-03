@@ -6,6 +6,10 @@ public class CheetahCat extends AbstractCat {
         super();
         this.setSetting("wild");
         this.setAverageHeight(999);
-        this.setPostEatAction("Zzzzzzz");
+    }
+
+    @Override
+    public String eat() {
+        return "Zzzzzzz";
     }
 }

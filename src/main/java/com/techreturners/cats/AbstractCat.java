@@ -3,13 +3,7 @@ package com.techreturners.cats;
 public abstract class AbstractCat implements Cat {
     private boolean isAsleep;
     private String setting;
-    private String postEatAction;
     private int averageHeight;
-
-
-    public void setPostEatAction(String postEatAction) {
-        this.postEatAction = postEatAction;
-    }
 
     public int getAverageHeight() {
         return averageHeight;
@@ -44,7 +38,7 @@ public abstract class AbstractCat implements Cat {
     }
 
     public String eat() {
-        return postEatAction;
+        return "Abstract Roaar!!";
     }
 
 }
