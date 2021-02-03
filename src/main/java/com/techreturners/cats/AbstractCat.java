@@ -7,13 +7,16 @@ public abstract class AbstractCat implements Cat {
         return isAsleep;
     }
 
-
     public AbstractCat() {
         this.isAsleep = false;
     }
 
     public void goToSleep() {
         this.isAsleep = true;
+    }
+
+    public void wakeUp() {
+        this.isAsleep = false;
     }
 
 }
