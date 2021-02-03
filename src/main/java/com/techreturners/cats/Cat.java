@@ -13,4 +13,6 @@ public interface Cat {
 
     public String eat();
 
+    public String eat(String randomComment);
+
 }

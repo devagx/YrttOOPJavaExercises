@@ -41,4 +41,8 @@ public abstract class AbstractCat implements Cat {
         return "Abstract Roaar!!";
     }
 
+    public String eat(String randomComment) {
+        return "Abstract random comment!!";
+    }
+
 }

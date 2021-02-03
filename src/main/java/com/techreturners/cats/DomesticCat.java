@@ -12,4 +12,7 @@ public class DomesticCat extends AbstractCat {
     public String eat() {
         return "Purrrrrrr";
     }
+    public String eat(String randomComment) {
+        return randomComment;
+    }
 }
