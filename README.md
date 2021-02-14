@@ -1,4 +1,4 @@
-# YrttOOPJavaExercises
+# yrtt-oop-java-exercises
 
 ## Instructions
 
