@@ -1,4 +1,4 @@
-# Object Oriented Programming and Java
+# yrtt-oop-java-exercises
 
 ## Instructions
 
