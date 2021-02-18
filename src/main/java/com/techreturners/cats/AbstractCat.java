@@ -5,6 +5,12 @@ public abstract class AbstractCat implements Cat {
     private String setting;
     private int averageHeight;
 
+    public AbstractCat(String setting, int averageHeight) {
+        this.setting = setting;
+        this.averageHeight = averageHeight;
+        this.isAsleep = false;
+    }
+
     public int getAverageHeight() {
         return averageHeight;
     }
@@ -25,10 +31,6 @@ public abstract class AbstractCat implements Cat {
         return isAsleep;
     }
 
-    public AbstractCat() {
-        this.isAsleep = false;
-    }
-
     public void goToSleep() {
         this.isAsleep = true;
     }
@@ -37,12 +39,8 @@ public abstract class AbstractCat implements Cat {
         this.isAsleep = false;
     }
 
-    public String eat() {
-        return "Abstract Roaar!!";
-    }
-
+    @Override
     public String eat(String randomComment) {
-        return "Abstract random comment!!";
+        return this.eat();
     }
-
 }

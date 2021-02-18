@@ -3,9 +3,7 @@ package com.techreturners.cats;
 public class DomesticCat extends AbstractCat {
 
     public DomesticCat() {
-        super();
-        this.setSetting("domestic");
-        this.setAverageHeight(23);
+        super("domestic",23);
     }
 
     @Override
@@ -13,6 +11,7 @@ public class DomesticCat extends AbstractCat {
         return "Purrrrrrr";
     }
 
+    //Polymorphism overriding the usual eat function
     public String eat(String randomComment) {
         return this.eat() + " " + randomComment;
     }

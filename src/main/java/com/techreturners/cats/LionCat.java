@@ -3,13 +3,13 @@ package com.techreturners.cats;
 public class LionCat extends AbstractCat {
 
     public LionCat() {
-        super();
-        this.setSetting("wild");
-        this.setAverageHeight(1100);
+        super("wild",1100);
     }
 
     @Override
     public String eat() {
         return "Roar!!!!";
     }
+
+
 }
