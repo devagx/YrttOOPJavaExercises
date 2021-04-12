@@ -15,14 +15,6 @@ public abstract class AbstractCat implements Cat {
         return averageHeight;
     }
 
-    public void setAverageHeight(int averageHeight) {
-        this.averageHeight = averageHeight;
-    }
-
-    public void setSetting(String setting) {
-        this.setting = setting;
-    }
-
     public String getSetting() {
         return this.setting;
     }
